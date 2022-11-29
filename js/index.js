@@ -287,14 +287,14 @@ function reveal() {
 
   var w, h;
   if (window.innerWidth >= 1000) {
-    w = 295;h = 485;
+    w = 295;h = 185;
   } else
   {
-    w = 255;h = 455;
+    w = 255;h = 155;
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "Soloop_20220825202319.mp4?controls=0&loop=1&autoplay=1");
+  ifrm.setAttribute("src", "Soloop_20220825202319.mp4");
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';
