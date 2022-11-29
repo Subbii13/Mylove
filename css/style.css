@@ -444,12 +444,12 @@ div#sea {
 
   div#video {
     right: 290px;
-    bottom: 100px;
+    bottom: 200px;
   }
 
   div#video iframe {
     width: 300px;
-    height: 400px;
+    height: 600px;
   }
 
   .moon {
